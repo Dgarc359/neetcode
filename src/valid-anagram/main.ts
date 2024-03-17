@@ -1,4 +1,5 @@
 // Beats 36.66% of users with TypeScript
+// should use a hash map
 export function isAnagram(s: string, t: string): boolean {
   if (s.length !== t.length) return false;
 

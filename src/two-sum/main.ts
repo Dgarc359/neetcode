@@ -3,7 +3,7 @@
 //You can return the answer in any order.
 // Beats 82.79% of users with TypeScript
 export function twoSum(nums: number[], target: number): number[] {
-  let solution = [];
+  const solution = [];
 
   const reverseIndex = new Map();
 
