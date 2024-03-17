@@ -16,7 +16,7 @@ describe('group anagrams', () => {
     expect(groupAnagrams(strs)).toEqual([['']]);
   });
 
-  it('test case two', () => {
+  it('test case three', () => {
     const strs = ['a'];
     expect(groupAnagrams(strs)).toEqual([['a']]);
   });
